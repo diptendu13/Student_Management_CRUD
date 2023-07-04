@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management CRUD</title>
+    <link rel="stylesheet" href="./smCRUD.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Student Management CRUD</h1>
+        
+        <div class="add-section">
+            <input type="text" placeholder="Name" class="input-data">
+            <input type="text" placeholder="Email" class="input-data">
+            <input type="text" placeholder="Age" class="input-data">
+            <input type="text" placeholder="GPA" class="input-data">
+            <input type="text" placeholder="Grade" class="input-data">
+            <input type="text" placeholder="Degree" class="input-data">
+        </div>
+        <div class="btn">
+            <button type="button" id="addButton">add</button>
+        </div>
+        <div class="searchbar">
+            <input type="text" placeholder="Search by Name, Email or Degree" id="searchInput">
+        </div>
+    
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Student Name</th>
+                        <th>Email</th>
+                        <th>Age</th>
+                        <th>GPA</th>
+                        <th>Grade</th>
+                        <th>Degree</th>
+                    </tr>
+                </thead>
+                <tbody id="table">
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+    <script src="./smCRUD.js"></script>
+</body>
+</html>
+
+<!-- Template -->
+<!-- <tr>
+        <td></td>
+        <td class="name">Diptendu</td>
+        <td class="email">gmail.com</td>
+        <td>26</td>
+        <td></td>
+        <td class="degree">
+            msc
+            <img src="./Images/edit-icon.png" alt="edit-icon" id="edit">
+            <img src="./Images/delete-icon.png" alt="delete-icon" id="delete">
+        </td>
+    </tr> -->
